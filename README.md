@@ -25,6 +25,7 @@ SafeSight AI is an application designed to enhance safety in industrial environm
 SafeSightAI/
 │
 ├── Execute_App.bat        # File to run the full application
+├── requirements.txt  
 ├── Histori_data/
 │   └── cumplimiento_registros.csv  # CSV file for data logging
 │
