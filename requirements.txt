@@ -1,0 +1,25 @@
+# YOLOv8 and related tools
+ultralytics==8.0.0 
+
+# Data processing
+pandas==1.5.3
+numpy==1.24.2
+
+# Visualization and dashboards
+streamlit==1.24.0
+matplotlib==3.6.3
+seaborn==0.12.2
+
+# OpenCV for image processing
+opencv-python==4.7.0.72
+
+# Other utilities
+requests==2.28.2
+watchdog==3.0.0  # Para monitoreo de cambios en archivos
+
+# System-specific
+winsound; platform_system == "Windows"  # No requiere instalación en Python estándar
+
+# Note: Include the following if you're using GPU acceleration
+torch==2.0.0  # Versión específica compatible con tu entorno
+torchvision==0.15.1
