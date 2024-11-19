@@ -43,17 +43,13 @@ SafeSightAI/
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/isabellaperezcav/SafeSight-AI
-   cd SafeSightAI
+   cd SafeSight-AI
    ```
 
 2. **Install the dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-   **Note**: Generate a `requirements.txt` file based on the libraries used (`ultralytics`, `pandas`, `streamlit`, `opencv-python`, etc.).
-
-3. **Ensure the YOLOv8 model is available**:
-   The `best.pt` file should be located in `Python_code/PyTorch/`.
 
 ## Usage
 
